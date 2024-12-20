@@ -5,7 +5,7 @@ It can be used inline or as a popup bound to a text box.
 It comes with several color palettes, can track selection history and supports "transparent" color.
 It is a full jQuery UI widget, supporting various configurations and themes.
 
-![screenshot 1](https://raw.github.com/evoluteur/colorpicker/master/screenshot1.png) &nbsp; ![screenshot 2](https://raw.github.com/evoluteur/colorpicker/master/screenshot2.png) &nbsp; ![screenshot 3](https://raw.github.com/evoluteur/colorpicker/master/screenshot3.png)
+![screenshot 1](https://raw.github.com/evoluteur/colorpicker/master/screenshots/screenshot1.png) &nbsp; ![screenshot 2](https://raw.github.com/evoluteur/colorpicker/master/screenshots/screenshot2.png) &nbsp; ![screenshot 3](https://raw.github.com/evoluteur/colorpicker/master/screenshots/screenshot3.png)
 
 Check the [online demo](https://evoluteur.github.io/colorpicker/index.html) for several examples.
 
@@ -18,6 +18,8 @@ Check the [online demo](https://evoluteur.github.io/colorpicker/index.html) for 
 5. [Methods](#Methods)
 6. [Events](#Events)
 7. [License](#License)
+
+Encourage this project by [becoming a sponsor](https://github.com/sponsors/evoluteur).
 
 <a name="Installation"></a>
 
@@ -55,12 +57,12 @@ First, load [jQuery](http://jquery.com/) (v3.1 or greater), [jQuery UI](http://j
 
 ```html
 <script
-  src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
   type="text/javascript"
   charset="utf-8"
 ></script>
 <script
-  src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+  src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js"
   type="text/javascript"
   charset="utf-8"
 ></script>
@@ -77,7 +79,7 @@ The widget requires a jQuery UI theme to be present, as well as its own included
 <link
   rel="stylesheet"
   type="text/css"
-  href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css"
+  href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.14.1/themes/ui-lightness/jquery-ui.css"
 />
 <link href="css/evol-colorpicker.css" rel="stylesheet" type="text/css" />
 ```
